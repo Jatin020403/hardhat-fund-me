@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'eslint-config-standard',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version'
+1 verbose cli ]
+2 info using npm@1.2.11
+3 info using node@v16.17.0
+4 verbose url raw eslint-config-standard
+5 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-config-standard' ]
+6 verbose url resolved https://registry.npmjs.org/eslint-config-standard
+7 info trying registry request attempt 1 at 7:47:09 pm
+8 http GET https://registry.npmjs.org/eslint-config-standard
+9 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+10 info trying registry request attempt 2 at 7:47:19 pm
+11 http GET https://registry.npmjs.org/eslint-config-standard
+12 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+13 info trying registry request attempt 3 at 7:48:20 pm
+14 http GET https://registry.npmjs.org/eslint-config-standard
+15 error Error: unable to get local issuer certificate
+15 error     at TLSSocket.onConnectSecure (node:_tls_wrap:1535:34)
+15 error     at TLSSocket.emit (node:events:513:28)
+15 error     at TLSSocket._finishInit (node:_tls_wrap:949:8)
+15 error     at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+16 error If you need help, you may report this log at:
+16 error     <http://github.com/isaacs/npm/issues>
+16 error or email it to:
+16 error     <npm-@googlegroups.com>
+17 error System Linux 5.15.0-48-generic
+18 error command "/usr/local/bin/node" "/usr/local/bin/npm" "view" "--json" "eslint-config-standard" "description" "dist-tags.latest" "homepage" "version"
+19 error cwd /home/jatin/Desktop/coding/hardhat-fcc/hardhat-fund-me-fcc
+20 error node -v v16.17.0
+21 error npm -v 1.2.11
+22 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+23 verbose exit [ 1, true ]

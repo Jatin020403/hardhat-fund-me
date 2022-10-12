@@ -1,0 +1,5 @@
+Unit test 
+- done locally
+can be done using local hardhat, forked hardhat
+
+Dtaging tests can be done on a testnet (last Stop!)
